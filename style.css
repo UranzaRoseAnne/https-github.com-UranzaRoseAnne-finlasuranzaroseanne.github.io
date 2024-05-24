@@ -1,0 +1,69 @@
+body {
+    background-image: url('images/bk.jpg'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+.container {
+    background-color: white; /* Glass effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 20%; 
+}
+
+h2 {
+    text-align: center; /* Center align the h2 element */
+    margin-bottom: 20px; /* Add margin below the h2 element */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    width: 100%; /* Set label width to 100% */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%; /* Set input width to 100% */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #999; /* Placeholder text color */
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
